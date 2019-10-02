@@ -29,7 +29,7 @@ function disappear() {
 
 function appear() {
   var randomTop = Math.random()*400;
-  var randomLeft = Math.random()*700;
+  var randomLeft = Math.random()*90;
   var randomHeight = Math.random()*200+20;
   var randomWidth = Math.random()*200+20;
   var randomCurve = Math.random();
@@ -41,7 +41,7 @@ function appear() {
     document.getElementById('box').style.borderRadius=0+'px';
   }
   document.getElementById('box').style.top=randomTop+'px';
-  document.getElementById('box').style.left=randomLeft+'px';
+  document.getElementById('box').style.left=randomLeft+'%';
   document.getElementById('box').style.height=randomHeight+'px';
   document.getElementById('box').style.width=randomWidth+'px';
   document.getElementById('box').style.display='block';
